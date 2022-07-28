@@ -18,11 +18,11 @@ const NavModal = () => {
 	return (
 		<motion.nav
 			className="fixed z-30 w-screen h-screen bg-black/60"
-			onClick={(e) => {
-				e.stopPropagation();
-				setShowMenu(false);
-			}}>
+			onClick={() => setShowMenu(false)}>
 			<motion.div
+				onClick={(e) => {
+					e.stopPropagation();
+				}}
 				initial={{ x: -200 }}
 				animate={{ x: 0 }}
 				transition={{ duration: 0.5 }}
