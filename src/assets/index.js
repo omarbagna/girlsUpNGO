@@ -1,6 +1,7 @@
 export { default as HomeImage } from './HomeImage.jpg';
 export { default as HomeMobile } from './HomeMobile.jpg';
 export { default as WorldMap } from './worldMap.jpg';
+export { default as AfricanGirl } from './SCGallery11.jpg';
 
 export { default as LogoWhite } from './girlupWhite.svg';
 export { default as LogoBlack } from './girlupBlack.svg';

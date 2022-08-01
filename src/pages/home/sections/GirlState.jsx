@@ -1,5 +1,11 @@
 import React from 'react';
-import { CustomMap, MainTitle, Section, SubTitle } from '../../../components';
+import {
+	CustomMap,
+	DefaultCard,
+	MainTitle,
+	Section,
+	SubTitle,
+} from '../../../components';
 
 const GirlState = () => {
 	return (
@@ -7,7 +13,10 @@ const GirlState = () => {
 			<SubTitle text="STATE OF GIRLS" />
 			<MainTitle text="There is no country in the world where women are equal" />
 
-			<div className="w-full flex flex-col-reverse md:flex md:items-end">
+			<div className="relative w-full flex flex-col-reverse items-center justify-center md:flex-row md:justify-end md:items-end">
+				<div className="w-fit md:absolute md:z-10 md:left-0 md:top-10 xl:top-52">
+					<DefaultCard />
+				</div>
 				<CustomMap />
 			</div>
 		</Section>
