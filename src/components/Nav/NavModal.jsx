@@ -36,10 +36,9 @@ const NavModal = () => {
 				<div className="flex flex-col gap-12 md:gap-16 lg:gap-20">
 					{navLinks.map(({ id, text, link }) => (
 						<div key={id} className="relative group cursor-pointer w-fit">
-							<p className="capitalize text-white text-4xl font-semibold group-hover:drop-shadow-lg">
+							<p className=" capitalize text-white text-4xl font-semibold group-hover:drop-shadow-lg">
 								{text}
 							</p>
-
 							<img
 								src={Highlight}
 								alt="highlight"

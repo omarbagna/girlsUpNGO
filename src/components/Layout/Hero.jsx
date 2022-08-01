@@ -14,7 +14,7 @@ const Hero = () => {
 				src={HomeMobile}
 			/>
 			<img
-				className="hidden md:block md:absolute md:z-[-1] md:top-0 md:left-0 md:w-full md:h-full md:object-cover xl:object-left"
+				className="hidden md:block md:absolute md:z-[-10] md:top-0 md:left-0 md:w-full md:h-full md:object-cover xl:object-left"
 				alt="background"
 				src={HomeImage}
 			/>

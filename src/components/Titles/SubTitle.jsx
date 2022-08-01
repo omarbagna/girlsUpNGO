@@ -7,7 +7,7 @@ const SubTitle = ({ text, color }) => {
 				className={
 					color === 'pink'
 						? 'uppercase w-fit text-pink-500 md:text-pink-300 font-bold text-sm md:text-lg'
-						: 'uppercase w-fit text-black font-bold text-sm md:text-lg'
+						: 'uppercase w-fit text-black font-medium text-sm md:text-lg'
 				}>
 				{text}
 			</h3>

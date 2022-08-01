@@ -3,6 +3,8 @@ export { default as UnderlineBtn } from './Buttons/UnderlineBtn';
 
 export { default as DefaultCard } from './Cards/DefaultCard';
 
+export { default as CustomMap } from './CustomMap/CustomMap';
+
 export { default as MainTitle } from './Titles/MainTitle';
 export { default as SubTitle } from './Titles/SubTitle';
 export { default as Exert } from './Titles/Exert';
