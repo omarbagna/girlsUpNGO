@@ -2,6 +2,8 @@ export { default as PrimaryBtn } from './Buttons/PrimaryBtn';
 export { default as UnderlineBtn } from './Buttons/UnderlineBtn';
 
 export { default as DefaultCard } from './Cards/DefaultCard';
+export { default as ArticleCard } from './Cards/ArticleCard';
+export { default as ButtonCard } from './Cards/ButtonCard';
 
 export { default as CustomMap } from './CustomMap/CustomMap';
 
