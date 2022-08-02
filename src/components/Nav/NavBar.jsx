@@ -23,8 +23,8 @@ const NavBar = () => {
 		<div
 			className={
 				navbar
-					? 'w-full bg-black/80 fixed top-0 left-0 flex flex-col z-10'
-					: 'w-full bg-transparent fixed top-0 left-0 flex flex-col z-10'
+					? 'w-full bg-pink-800/90 backdrop-blur-sm fixed top-0 left-0 flex flex-col z-50'
+					: 'w-full bg-transparent fixed top-0 left-0 flex flex-col z-50'
 			}>
 			{showMenu && <NavModal />}
 			<div
