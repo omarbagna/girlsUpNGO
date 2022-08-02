@@ -11,7 +11,7 @@ const ButtonCard = ({ btnText }) => {
 				<h2 className="font-medium text-xl">Give</h2>
 				<p>Women only make 30% of government officials in South America</p>
 				<div className="w-full flex justify-center">
-					<PrimaryBtn text={btnText} />
+					<PrimaryBtn text={btnText} color="card" />
 				</div>
 			</div>
 		</div>
