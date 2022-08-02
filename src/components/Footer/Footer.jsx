@@ -38,13 +38,16 @@ const Footer = () => {
 				<p className="font-extralight text-xs md:text-sm">
 					Copyright Girl Up 2022
 				</p>
-				<div>
+				<a
+					href="https://bagna.netlify.app"
+					target="_blank"
+					rel="noopener noreferrer">
 					<img
 						className="transition-all duration-1000 ease-in-out object-fit h-6 opacity-20 hover:opacity-90"
 						src={Bagna}
 						alt="bagna"
 					/>
-				</div>
+				</a>
 			</div>
 		</div>
 	);
