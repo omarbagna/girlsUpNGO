@@ -48,7 +48,7 @@ const NavBar = () => {
 						className={
 							navbar
 								? 'object-contain h-9 md:h-12 block'
-								: 'object-contain h-20 hidden md:block'
+								: 'object-contain md:h-14 lg:h-20 hidden md:block'
 						}
 					/>
 				</div>

@@ -7,7 +7,7 @@ import SubTitle from '../Titles/SubTitle';
 
 const Hero = () => {
 	return (
-		<div className="relative w-full h-fit md:h-[60vh] lg:h-[80vh] xl:h-screen pt-36">
+		<div className="relative w-full h-fit md:h-screen lg:h-[80vh] xl:h-screen pt-36">
 			<img
 				className="md:hidden w-full object-contain"
 				alt="background"

@@ -14,9 +14,9 @@ const Articles = () => {
 					<div className="h-full absolute top-0 right-0 w-10 bg-gradient-to-l from-white" />
 
 					<div className="flex w-full overflow-x-scroll py-8 px-6 md:px-10 items-start justify-start gap-10">
-						{articleData.map(({ id, exert, author }) => (
+						{articleData.map(({ id, img, exert, author }) => (
 							<div key={id}>
-								<ArticleCard exert={exert} author={author} />
+								<ArticleCard img={img} exert={exert} author={author} />
 							</div>
 						))}
 					</div>

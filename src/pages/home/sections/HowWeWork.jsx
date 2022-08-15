@@ -28,7 +28,7 @@ const HowWeWork = () => {
 					</div>
 				</div>
 
-				<div className="relative flex flex-col py-6 z-[-5]">
+				<div className="relative flex flex-col py-6 lg:pb-24 z-[-5] bg-white rounded-full">
 					<div className="flex flex-col gap-6">
 						<img
 							className="object-contain rotate-180 h-8 md:h-10"
@@ -55,7 +55,7 @@ const HowWeWork = () => {
 			<img
 				className="object-contain z-[-10] w-full absolute -bottom-60 md:-bottom-[30rem] lg:-bottom-[40rem] xl:-bottom-[52rem]"
 				src={WeDo}
-				alt="quote"
+				alt="bottom"
 			/>
 		</div>
 	);
